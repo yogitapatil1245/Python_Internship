@@ -1,4 +1,5 @@
-#uitlist=list(("grapes","banana","apple"))
+#list using constructor
+fruitlist=list(("grapes","banana","apple"))
 print(fruitlist)
 
 fruitlistwithoutusingconstructor=["grapes","banana","apple"]
@@ -10,9 +11,7 @@ print(remixlist)
 
 #changing the elements
 
-fruitlist[0]="strawberry"list using constructor
-
-fr
+fruitlist[0]="strawberry"
 print(fruitlist)
 
 newfruitlist=["apple", "cherry", "orange", "kiwi", "mango"]
@@ -80,3 +79,12 @@ print(len(list2))
 list2.insert(0,"grapes")
 print(list2)
 
+#copy() method
+
+new_list1=["apple","mango"]
+new_list2=["banana","cherry"]
+#new_list2=new_list1
+new_list2=new_list1.copy()
+print(new_list2)
+new_list2.insert(2,"yogita")
+print(new_list1)
